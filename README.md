@@ -1,12 +1,32 @@
-# React + Vite
+# 🌤️ SkyNow – ReactJS-Based Real-Time Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**SkyNow** is a modern weather application built using **ReactJS**, offering real-time weather updates for any city around the globe. With a clean and responsive UI, SkyNow delivers essential weather data like temperature, conditions, humidity, wind speed, and more – all powered by reliable third-party weather APIs.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🌍 Search weather by city name
+- 🌡️ Display current temperature, feels like, and weather conditions
+- 💧 Humidity and 🌬️ Wind speed info
+- 📱 Responsive design for all screen sizes
+- ⚛️ Built with ReactJS (functional components + hooks)
+- 🔄 Fetches live weather data using OpenWeatherMap API
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend**: ReactJS (Functional Components + Hooks)
+- **API**: OpenWeatherMap (or any weather API)
+- **Styling**: CSS / Tailwind / Styled Components (as per your choice)
+
+## 📦 Installation
+
+1. **Clone the repository**
+
+```bash
+git clone https://github.com/Shubhamsharma2002/SkyNow.git
+cd SkyNow
+```
+
+## 📫 Connect With Me
+ ## 👤 Developer : SHUBHAM SHARMA
+ 
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Shubhamsharma2002)  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shubhamsharma2026/)   [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:shubhamjii2002@gmail.com)
