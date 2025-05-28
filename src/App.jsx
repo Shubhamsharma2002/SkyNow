@@ -1,11 +1,11 @@
 
-import './App.css'
+import React from "react"
 
 function App() {
   
 
   return (
-    <h1>weather app cooming soon</h1>
+    <h1 className='text-3xl text-blue-400'>weather app cooming soon</h1>
   )
 }
 
