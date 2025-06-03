@@ -8,13 +8,13 @@ const Footer = () => {
           &copy; {new Date().getFullYear()} Shubham Sharma. All rights reserved.
         </p>
         <div className="flex space-x-4 mt-2 md:mt-0">
-          <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition">
+          <a href="https://github.com/Shubhamsharma2002" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition">
             GitHub
           </a>
-          <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition">
+          <a href="https://www.linkedin.com/in/shubhamsharma2026/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition">
             LinkedIn
           </a>
-          <a href="mailto:your.email@example.com" className="text-gray-400 hover:text-white transition">
+          <a href="mailto:shubhamjii2002@gmail.com" className="text-gray-400 hover:text-white transition">
             Email
           </a>
         </div>
