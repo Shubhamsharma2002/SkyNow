@@ -15,7 +15,7 @@
 
 - **Frontend**: ReactJS (Functional Components + Hooks)
 - **API**: OpenWeatherMap (or any weather API)
-- **Styling**: CSS / Tailwind / Styled Components (as per your choice)
+- **Styling**: CSS / Tailwind 
 
 ## 📦 Installation
 
@@ -29,7 +29,7 @@ cd SkyNow
 
 ## 🚀 Live Demo
 
-🔗 [https://currencyappbyshubham.netlify.app](https://currencyappbyshubham.netlify.app)
+🔗 [https://skynowbyshubh.netlify.app/](https://skynowbyshubh.netlify.app/)
 
 ---
 
