@@ -1,14 +1,17 @@
-import React, { useState } from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars, faXmark } from '@fortawesome/free-solid-svg-icons';
+import React, { useState } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
 
-const Navbar =()=> {
+const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-amber-600 p-3">
+    <nav className="bg-blue-900 p-3">
       <div className="flex justify-around items-center">
-        <div className="text-white font-bold text-lg">Logo</div>
+        <div className="flex items-center space-x-2 text-white font-bold text-xl">
+          <img src="/logo.ico" alt="Web logo" className="w-8 h-8 rounded " />
+          <span>Skynow</span>
+        </div>
 
         {/* Mobile menu button */}
         <button
@@ -34,6 +37,6 @@ const Navbar =()=> {
       )}
     </nav>
   );
-}
+};
 
 export default Navbar;
