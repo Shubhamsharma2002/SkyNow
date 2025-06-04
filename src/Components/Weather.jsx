@@ -38,7 +38,7 @@ const Weather = () => {
   };
 
   useEffect(() => {
-    search("Noida"); // Call default city on load
+    search(); // Call default city on load
   }, []);
 
   return (
