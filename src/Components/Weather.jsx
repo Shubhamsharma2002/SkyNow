@@ -1,8 +1,27 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faDroplet, faMagnifyingGlass, faSun, faWind } from "@fortawesome/free-solid-svg-icons";
+import {
+  faDroplet,
+  faMagnifyingGlass,
+  faSun,
+  faWind,
+} from "@fortawesome/free-solid-svg-icons";
 
 const Weather = () => {
+  console.log(import.meta.env.VITE_VAL);
+  
+  const search = async (city) => {
+    try {
+      const response = await fetch(
+        `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${import.meta.env.VITE_APP_ID}&units=metric`
+      );
+      const data = await response.json();
+      console.log(data);
+    } catch (error) {
+      console.error("Error fetching weather data:", error);
+    }
+  };
+  search("Delhi");
   return (
     <div className="flex justify-center items-start bg-blue-100 min-h-screen pt-20 px-4 sm:px-0">
       <div className="bg-blue-950 p-4 rounded-lg shadow-lg w-full max-w-md">
@@ -33,23 +52,22 @@ const Weather = () => {
         </div>
         {/* status */}
         <div className="flex justify-around text-white mt-6">
-  {/* Humidity */}
-  <div className="flex flex-col items-center">
-    <FontAwesomeIcon icon={faDroplet} size="2x" />
-    <span className="mt-2 text-center text-sm">
-      91% <br /> Humidity
-    </span>
-  </div>
+          {/* Humidity */}
+          <div className="flex flex-col items-center">
+            <FontAwesomeIcon icon={faDroplet} size="2x" />
+            <span className="mt-2 text-center text-sm">
+              91% <br /> Humidity
+            </span>
+          </div>
 
-  {/* Wind Speed */}
-  <div className="flex flex-col items-center">
-    <FontAwesomeIcon icon={faWind} size="2x" />
-    <span className="mt-2 text-center text-sm">
-      3.6 km/h <br /> Wind Speed
-    </span>
-  </div>
-</div>
-
+          {/* Wind Speed */}
+          <div className="flex flex-col items-center">
+            <FontAwesomeIcon icon={faWind} size="2x" />
+            <span className="mt-2 text-center text-sm">
+              3.6 km/h <br /> Wind Speed
+            </span>
+          </div>
+        </div>
       </div>
     </div>
   );
