@@ -8,7 +8,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 
 const Weather = () => {
-  console.log(import.meta.env.VITE_VAL);
+
   
   const search = async (city) => {
     try {
