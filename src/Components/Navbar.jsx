@@ -23,7 +23,7 @@ const Navbar = () => {
 
         {/* Desktop menu */}
         <div className="hidden md:flex space-x-6 text-white">
-          <a href="#">About</a>
+          <a href="/about">About</a>
           <a href="#">Contact</a>
         </div>
       </div>
