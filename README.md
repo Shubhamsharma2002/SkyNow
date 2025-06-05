@@ -21,10 +21,15 @@
 
 1. **Clone the repository**
 
+
 ```bash
 git clone https://github.com/Shubhamsharma2002/SkyNow.git
 cd SkyNow
+npm install
+npm run dev
 ```
+
+
 ---
 
 ## 🚀 Live Demo
@@ -32,6 +37,8 @@ cd SkyNow
 🔗 [https://skynowbyshubh.netlify.app/](https://skynowbyshubh.netlify.app/)
 
 ---
+
+
 
 ## 👤 Developer: Shubham Sharma
 
