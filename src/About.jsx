@@ -1,13 +1,15 @@
-import React from 'react'
+import React from 'react';
 
 const About = () => {
-   return (
+  return (
     <div className="max-w-3xl mx-4 sm:mx-auto my-12 px-4 sm:px-8 py-8 bg-white border-2 border-blue-500 rounded-2xl shadow-2xl text-center">
-
       {/* Profile Image */}
       <div className="flex justify-center mb-6">
-        <img src="/profile.jpeg" alt="dev image"  width={170} height={120}  className="rounded-2xl border-4 border-blue-300 object-cover"/>
-       
+        <img
+          src="/profile.jpeg"
+          alt="Developer"
+          className="w-44 h-44 rounded-2xl border-4 border-blue-300 object-cover"
+        />
       </div>
 
       {/* About Section */}
@@ -53,7 +55,7 @@ const About = () => {
         </a>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default About
+export default About;
